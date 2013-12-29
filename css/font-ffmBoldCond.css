@@ -1,0 +1,8 @@
+@font-face {
+ font-family: ffmBoldCond;
+ src: url("../fonts/ffmBoldCond-webfont.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: ffmBoldCond;
+ src: url("../fonts/ffmBoldCond.otf") /* OTF file for CSS3 browsers */
+}
