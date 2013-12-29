@@ -49,7 +49,6 @@
 	<positions>
 		<position>search</position>
 		<position>topmenu</position>
-		<position>submenu</position>
 		<position>breadcrumbs</position>
 		<position>slideshow</position>
 		<position>rightTop</position>
