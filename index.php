@@ -42,12 +42,12 @@
         <!--Header2-->
         <div id="header2">
             <div class="inner-box">
-                <div id="person">
-                    <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/person.png" alt="logo" />
+                 <div id="person">
+                    <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/person.png" alt="person" />
                 </div>
                 <div class="clear"></div>
                 <div id="logo">
-                    <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/logo.png" alt="person" />                
+                    <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/logo.png" alt="logo" />                
                 </div>
                 <div class="clear"></div>
                 
