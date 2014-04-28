@@ -30,7 +30,7 @@
         <!--Header1-->
         <div id="header1">
             <div class="inner-box">
-                <div id="search">search
+                <div id="search">
                     <jdoc:include type="modules" name="search" />
                 </div>
             </div>
@@ -42,14 +42,19 @@
         <!--Header2-->
         <div id="header2">
             <div class="inner-box">
-                <div id="logo"></div>
+                <div id="person">
+                    <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/person.png" alt="logo" />
+                </div>
                 <div class="clear"></div>
-                <div id="person"></div>
+                <div id="logo">
+                    <img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/logo.png" alt="person" />                
+                </div>
                 <div class="clear"></div>
-                <div id="header_text"></div>
+                
+                <div id="headerPics"></div>
                 <div class="clear"></div>
                 <div id="topmenu">
-                    <jdoc:include type="modules" name="topmenu" />
+                    <jdoc:include type="modules" name="topmenu" style="xhtml" />
                 </div>
                 <div class="clear"></div>
             </div>
@@ -62,55 +67,62 @@
             <div id="breadcrumbs">
                 <jdoc:include type="modules" name="breadcrumbs" />
             </div>
-            <div id="slideshow">slideshow
+            <div id="slideshow">
                 <jdoc:include type="modules" name="slideshow" />
             </div>
             <div id="columnRight">
-                <div id="rightTop">right top
-                    <jdoc:include type="modules" name="rightTop" />
+                <div id="rightTop">
+                    <jdoc:include type="modules" name="rightTop" style="xhtml" />
                 </div>
-                <div id="rightMiddle">right middle
-                    <jdoc:include type="modules" name="rightMiddle" />
+                <div id="rightMiddle">
+                    <jdoc:include type="modules" name="rightMiddle" style="xhtml" />
                 </div>
-                <div id="rightBottom">right bottom
-                    <jdoc:include type="modules" name="rightBottom" />
+                <div id="rightBottom">
+                    <jdoc:include type="modules" name="rightBottom" style="xhtml" />
                 </div>
             </div>
             <!-- end of columnRight -->
             <div id="columnLeft">
-                <div id="overContent">over content
-                    <jdoc:include type="modules" name="overContent" />
+                <div id="overContent" >
+                    <jdoc:include type="modules" name="overContent" style="xhtml"/>
                 </div>
-                <div id="content">content
-                    <jdoc:include type="modules" name="content" />
+                <div id="content">
+                    <jdoc:include type="modules" name="content" style="xhtml"/>
                     <jdoc:include type="component" />
                     <jdoc:include type="message" />
                     <jdoc:include type="modules" name="debug" />
                 </div>
-                <div id="underContent">under content
-                    <jdoc:include type="modules" name="underContent" />
+                <div id="underContent">
+                    <jdoc:include type="modules" name="underContent" style="xhtml"/>
                 </div>
             </div>
             <!-- end of columnLeft -->
             <div class="clear"></div>
         </div>
         <!-- end of container -->
-        <div id="footer">
-            <div id="footerLeft">box 1
-                <jdoc:include type="modules" name="footerLeft" />
-            </div>
-            <div id="footerMiddle">box 2
-                <jdoc:include type="modules" name="footerMiddle" />
-            </div>
-            <div id="footerRight">box 3
-                <jdoc:include type="modules" name="footerRight" />
+        <div id="footer" >
+            <div class="inner-box">
+                <div id="footerLeft">
+                    <jdoc:include type="modules" name="footerLeft"/>
+                </div>
+                
+                <div id="footerMiddle">
+                    <jdoc:include type="modules" name="footerMiddle" />
+                </div>
+                
+                <div id="footerRight">
+                    <jdoc:include type="modules" name="footerRight" />
+                </div>
+                <div class="clear"></div>
+                <div id="copyright">
+                    <jdoc:include type="modules" name="copyright" />
+                </div>
             </div>
         </div>
         <!-- end of footer -->
         <div class="clear"></div>
     </div>
     <!-- end of wrapper -->
-    <jdoc:include type="modules" name="debug" />
 </body>
 
 </html>

@@ -1,8 +1,10 @@
 @font-face {
- font-family: ffmBoldCond;
- src: url("../fonts/ffmBoldCond-webfont.eot") /* EOT file for IE */
+    font-family: 'ffmBoldCond';
+    src: url("../fonts/ffmBoldCond-webfont.eot")
+    /* EOT file for IE */
 }
 @font-face {
- font-family: ffmBoldCond;
- src: url("../fonts/ffmBoldCond.otf") /* OTF file for CSS3 browsers */
+    font-family: 'ffmBoldCond';
+    src: url("../fonts/ffmBoldCond.ttf")
+    /* TTF file for CSS3 browsers */
 }

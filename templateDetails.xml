@@ -60,6 +60,7 @@
 		<position>footerLeft</position>
 		<position>footerMiddle</position>
 		<position>footerRight</position>
+        <position>copyright</position>
 		<position>debug</position>
 	</positions>
 	
