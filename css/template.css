@@ -133,6 +133,20 @@ screen and (max--moz-device-pixel-ratio: 2) {}
     margin-top:5px;
 }
 
+#search input {
+    font-size: 12px;
+    height: 16px;
+    border: 1px solid #333;
+    padding: 3px;
+}
+
+#search button {
+    border: 1px solid #333;
+    height: 24px;
+    vertical-align: middle;
+}
+
+
 
 /* Header 2 */
 
