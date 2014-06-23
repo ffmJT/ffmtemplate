@@ -11,11 +11,12 @@ html {
     height:101%;
 }
 
-body {
-    background-color: #EDEDED;
+body {    
     font-size:14px;
     font-weight:normal;
     line-height:22px;
+    background-color: #505050;
+    background-image: url(../images/background_gray.png);
 }
 
 
@@ -122,21 +123,26 @@ screen and (max--moz-device-pixel-ratio: 2) {}
 
 #header1 {
     height:35px;
-    background-color:#575757;
+    background-color: #505050;
+    background-image: url(../images/background_gray.png);
 }
+
+/* Search */
 #search {
     float:right;
     margin-top:5px;
 }
+
+
 /* Header 2 */
 
 #header2 {
     border-top:1px solid white;
     border-bottom:1px solid white;
     position:relative;
-    -moz-box-shadow:0px 3px 3px 0px #888;
-    -webkit-box-shadow:0px 3px 3px 0px #888;
-    box-shadow:0px 3px 3px 0px #888;
+    -moz-box-shadow:0px 3px 3px 0px rgba(0,0,0, .5);
+    -webkit-box-shadow:0px 3px 3px 0px rgba(0,0,0, .5);
+    box-shadow:0px 3px 3px 0px rgba(0,0,0, .5);
     height:200px;
     background:#f22e2b;
     /* Old browsers */
@@ -201,7 +207,7 @@ screen and (max--moz-device-pixel-ratio: 2) {}
     z-index:4;
     height:35px;
     position:relative;
-    top:164px;
+    top:166px;
     -moz-box-shadow:0px 1px 3px 0px #333;
     -webkit-box-shadow:0px 1px 3px 0px #333;
     box-shadow:0px 1px 3px 0px #333;
@@ -222,7 +228,7 @@ screen and (max--moz-device-pixel-ratio: 2) {}
 /* HAUPTTEIL 
 /*****************************************/
 #container {  
-
+    background-color: #EDEDED;
 }
 
 #breadcrumbs {
@@ -258,8 +264,17 @@ screen and (max--moz-device-pixel-ratio: 2) {}
 
 #footer {
     background-color:#575757;
+    /* TODO: All browsers, fuck, start using less for shit like that*/
+    background:-moz-linear-gradient(top,
+    #f22e2b 0%,
+    #ac211e 100%);   
     border-top: 1px solid white;
     min-height:50px;
+    
+    /* TODO: Less again... -.- */
+    -moz-box-shadow:0px -3px 3px 0px rgba(0,0,0, .5);
+    -webkit-box-shadow:0px -3px 3px 0px rgba(0,0,0, .5);
+    box-shadow:0px -3px 3px 0px rgba(0,0,0, .5);    
 }
 
 #footerLeft {
