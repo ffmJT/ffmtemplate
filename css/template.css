@@ -240,9 +240,24 @@ screen and (max--moz-device-pixel-ratio: 2) {}
 
 .maximenuckh {
     text-decoration: none, inherit;
-    text-transform: capitalize;
     font-size: 1.5em;
 }
+
+
+span.titreck {
+    text-transform: uppercase !important;
+    color: #fff !important;
+    font-weight: lighter!important;
+    padding-top: 8px;    
+    vertical-align: middle;
+}   
+
+/* Hidde arrow */
+div#hauptmenu ul.maximenuck li.parent.level1 > a, div#hauptmenu ul.maximenuck li.parent.level1 > span {
+    background: none !important;
+}
+
+
 
 .maximenucklogo {
     list-style:none;
