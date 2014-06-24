@@ -56,8 +56,9 @@
                 <div id="topmenu">
                     <jdoc:include type="modules" name="topmenu" style="xhtml" />
                 </div>
-                <div class="clear"></div>
+                <div class="clear"></div>                
             </div>
+            <div id="topmenuStretch" ></div>
         </div>
         <!-- end of header2 -->
 

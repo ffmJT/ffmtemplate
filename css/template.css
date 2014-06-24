@@ -195,6 +195,16 @@ screen and (max--moz-device-pixel-ratio: 2) {}
     endColorstr='#ac211e',
     GradientType=0);
     /* IE6-8 */
+        
+}
+
+#topmenuStretch {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #f0f;
+    height: 34px;
+    background: url(../images/topmenu_bg.png) repeat-x;
 }
 
 #person {
@@ -222,9 +232,9 @@ screen and (max--moz-device-pixel-ratio: 2) {}
     height:35px;
     position:relative;
     top:166px;
-    -moz-box-shadow:0px 1px 3px 0px #333;
+    /*-moz-box-shadow:0px 1px 3px 0px #333;
     -webkit-box-shadow:0px 1px 3px 0px #333;
-    box-shadow:0px 1px 3px 0px #333;
+    box-shadow:0px 1px 3px 0px #333;*/
 }
 
 
